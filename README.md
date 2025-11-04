@@ -53,14 +53,14 @@ python analyze_optimization.py --runs "Optimization_Run_Folder_Name"
 
 **Authors:** Yunzhe Wang, Gale M. Lucas, Burcin Becerik-Gerber, Volkan Ustun
 
-If you find our codebase helpful, please cite our paper:
+If you used this codebase, please cite our paper:
 
 ```
 @inproceedings{wang2025implicit,
   title={Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations},
-  author={Wang, Yunzhe and Lucas, Gale M and Becerik-Gerber, Burcin and Ustun, Volkan},
+  author={Wang, Yunzhe and Lucas, Gale and Becerik-Gerber, Burcin and Ustun, Volkan},
   booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
-  year={2025},
-  publisher={Association for Computational Linguistics}
+  pages={30669--30686},
+  year={2025}
 }
 ```
