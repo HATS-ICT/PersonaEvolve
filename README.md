@@ -1,4 +1,4 @@
-# PEBA-PEvo: Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations
+# PersonaEvolve: Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations
 
 <div align="center">
 <img src="./images/framework.jpg" alt="PEBA-PEvo Diagram" width="600">
