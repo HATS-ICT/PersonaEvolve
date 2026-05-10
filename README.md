@@ -25,12 +25,13 @@ pip install -r requirements.txt
 
 ## <img src="./images/alice.png" alt="Agent Alice" width="30"> Download Sample Simulation Data
 
-WIP
-
+Sample simulation data can be downloaded from [Google Drive](https://drive.google.com/file/d/1ggHoIWtrmLxoCzrSRG7C8-i2TmpZeenE/view?usp=sharing).
 
 ## <img src="./images/bob.png" alt="Agent Bob" width="30"> Replay Simulation
 
-WIP
+Use the hosted replay viewer at [https://persona-evolve.vercel.app/](https://persona-evolve.vercel.app/).
+
+The web app includes fixed sample simulation data. Open the app and select a sample run from the dropdown to inspect agent personas, behavior classifications, observations, dialog, and trajectory maps.
 
 
 ## <img src="./images/charlie.png" alt="Agent Charlie" width="30"> Analyze Simulation
