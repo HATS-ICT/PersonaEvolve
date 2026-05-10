@@ -1,0 +1,151 @@
+{
+  "start_time": "2025-05-19 12:50:08.776",
+  "end_time": "2025-05-19 12:51:11.372",
+  "duration_seconds": 62.595967699999996,
+  "agent_count": 80,
+  "unity_version": "2022.3.45f1",
+  "platform": "WindowsEditor",
+  "agent_logs_folder": "C:/Users/wangy/AppData/LocalLow/ICT/HATS-ASI-LLM\\SimulationLogs\\Simulation_2025-05-19_12-50-08\\AgentLogs",
+  "llm_usage": {
+    "model": "deepseek/deepseek-chat",
+    "prompt_tokens": 578448.0,
+    "cached_tokens": 0.0,
+    "completion_tokens": 44008.0,
+    "total_requests": 295,
+    "total_cost_usd": 0.258977354
+  },
+  "sim_config": {
+    "behavior_enforcing": "Explicit",
+    "random_seed": 43,
+    "use_random_seed": true,
+    "simulation_duration": 60.0,
+    "default_llm_model": "deepseek/deepseek-chat",
+    "llm_temperature": 0.0,
+    "position_log_interval": 0.5,
+    "logging_enabled": true
+  },
+  "trait_distributions": [
+    {
+      "training_level": "High",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Direct",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "High",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Vague",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "High",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Unaware",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "High",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Direct",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "High",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Vague",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "High",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Unaware",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Direct",
+      "weight": 1.0,
+      "calculated_count": 81
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Vague",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "High",
+      "shooter_perception_level": "Unaware",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Direct",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Vague",
+      "weight": 0.0,
+      "calculated_count": 0
+    },
+    {
+      "training_level": "Low",
+      "familiarity_level": "Low",
+      "shooter_perception_level": "Unaware",
+      "weight": 0.0,
+      "calculated_count": 0
+    }
+  ],
+  "behavior_distributions": [
+    {
+      "behavior_type": "Run following a crowd",
+      "instruction": "This behavior involves fleeing alongside a group, driven by the instinct to follow others without independently evaluating the safest route. The individual may be overwhelmed and default to the crowd's direction out of panic or uncertainty, relying on others’ actions instead of personal judgment.",
+      "weight": 0.28,
+      "calculated_count": 23
+    },
+    {
+      "behavior_type": "Hide in place",
+      "instruction": "The person immediately takes cover wherever they currently are, often due to the belief that movement would increase danger or because they are unable to assess a safer location. This behavior may stem from fear, confusion, or limited knowledge of the environment, leading to a decision to conceal rather than flee.",
+      "weight": 0.26,
+      "calculated_count": 21
+    },
+    {
+      "behavior_type": "Run then hide",
+      "instruction": "This response begins with the person running away from the immediate threat and then transitioning to hiding once they feel a degree of separation from danger. It reflects a blend of instinctive flight and strategic thinking, where the person adapts their response as the situation evolves, often choosing concealment when escape routes narrow or become unsafe.",
+      "weight": 0.12,
+      "calculated_count": 10
+    },
+    {
+      "behavior_type": "Run independently",
+      "instruction": "In this behavior, the person flees the scene in a direction they determine independently of the crowd, often based on quick environmental assessment or prior knowledge of the area. This reflects a high level of situational awareness, personal decisiveness, and the ability to think critically under pressure.",
+      "weight": 0.12,
+      "calculated_count": 10
+    },
+    {
+      "behavior_type": "Freeze",
+      "instruction": "The person becomes mentally and physically immobilized, unable to act due to overwhelming fear or shock. This involuntary reaction, often referred to as tonic immobility, results from cognitive overload and can prevent any attempt to run, hide, or fight, despite imminent danger.",
+      "weight": 0.12,
+      "calculated_count": 10
+    },
+    {
+      "behavior_type": "Fight",
+      "instruction": "This behavior involves actively attempting to confront, disarm, or incapacitate the shooter, typically as a last resort when no other options are viable. It may arise from a survival instinct, protective impulse (especially toward others), or previous training that enables the person to override fear and engage in direct action.",
+      "weight": 0.1,
+      "calculated_count": 7
+    }
+  ]
+}

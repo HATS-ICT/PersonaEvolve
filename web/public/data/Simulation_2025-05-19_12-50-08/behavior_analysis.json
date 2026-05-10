@@ -1,0 +1,2650 @@
+{
+  "simulation_id": "Simulation_2025-05-19_12-50-08",
+  "timestamp": "2025-05-19 12:56:41",
+  "agents": {
+    "Abigail Nguyen": {
+      "persona": {
+        "name": "Abigail Nguyen",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing a gunshot, the agent immediately decided to stay still and hide in the lounge, believing that moving would increase their risk. They remained hidden even as the shooter got closer, showing no attempt to run or fight. This behavior best fits HIDE_IN_PLACE, as the agent concealed themselves at their current location out of fear and a desire to avoid detection.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Abigail Nguyen",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 853,
+          "completion_tokens": 140,
+          "total_tokens": 993
+        }
+      }
+    },
+    "Aiden Chen": {
+      "persona": {
+        "name": "Aiden Chen",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially ran away from the threat upon hearing gunshots, then chose to hide and assess the situation after reaching a safer location (the north yard). This sequence\u2014running first, then hiding\u2014matches the HIDE_AFTER_RUNNING category. There is no evidence of following a crowd, freezing, fighting, or hiding in place without first running.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "RUN_INDEPENDENTLY",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Aiden Chen",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1134,
+          "completion_tokens": 136,
+          "total_tokens": 1270
+        }
+      }
+    },
+    "Aiden Thompson": {
+      "persona": {
+        "name": "Aiden Thompson",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the situation, identified the safest exit (kitchen_yard), and led others to safety without following a crowd. Their actions were based on situational awareness and personal judgment, not panic or defaulting to others' behavior. There is no evidence of freezing, hiding, following a crowd, or fighting.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FIGHT",
+          "FREEZE"
+        ],
+        "persona": {
+          "name": "Aiden Thompson",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Escaped",
+        "token_usage": {
+          "prompt_tokens": 1048,
+          "completion_tokens": 133,
+          "total_tokens": 1181
+        }
+      }
+    },
+    "Alex Rivera": {
+      "persona": {
+        "name": "Alex Rivera",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Genderfluid"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent became mentally and physically immobilized after hearing a gunshot, unable to move or act due to overwhelming fear and shock, despite observing others escaping. There is no evidence of running, hiding, or fighting\u2014only paralysis. This matches the definition of the FREEZE category.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Alex Rivera",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Genderfluid"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 924,
+          "completion_tokens": 121,
+          "total_tokens": 1045
+        }
+      }
+    },
+    "Alexander Lee": {
+      "persona": {
+        "name": "Alexander Lee",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent consistently chose to stay still and hide in the lounge, explicitly stating that moving would increase danger and expressing fear of attracting attention. There was no attempt to run, follow a crowd, or fight, and the agent was not immobilized to the point of being unable to act, but rather made a conscious decision to hide. This aligns most closely with the HIDE_IN_PLACE category.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Alexander Lee",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1006,
+          "completion_tokens": 145,
+          "total_tokens": 1151
+        }
+      }
+    },
+    "Amelia Chen": {
+      "persona": {
+        "name": "Amelia Chen",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover in the classroom upon hearing a gunshot and urged others to do the same, choosing not to run or follow the crowd. Throughout the incident, the agent remained hidden and encouraged others to stay quiet and concealed, showing no attempt to flee or fight. This behavior best fits the HIDE_IN_PLACE category, as the agent stayed put and prioritized concealment over movement.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Amelia Chen",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1046,
+          "completion_tokens": 145,
+          "total_tokens": 1191
+        }
+      }
+    },
+    "Amelia Robinson": {
+      "persona": {
+        "name": "Amelia Robinson",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "Upon hearing the gunshot, the agent decided to follow the crowd and encouraged others to do the same, indicating a reliance on group behavior rather than independent assessment. The agent's plan and dialog explicitly mention following everyone for safety, which aligns with the instinct to move with the crowd in a panic situation. There is no evidence of independent route selection, hiding, freezing, or fighting.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Amelia Robinson",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 860,
+          "completion_tokens": 146,
+          "total_tokens": 1006
+        }
+      }
+    },
+    "Audrey Thompson": {
+      "persona": {
+        "name": "Audrey Thompson",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially ran away from the threat upon hearing gunshots, then, after reaching a new location and realizing continued danger, decided to hide. This sequence matches the pattern of running first and then hiding when escape is no longer safe. There is no evidence of following a crowd, freezing, fighting, or hiding in place without first running.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "RUN_INDEPENDENTLY",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Audrey Thompson",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 976,
+          "completion_tokens": 135,
+          "total_tokens": 1111
+        }
+      }
+    },
+    "Ava Martinez": {
+      "persona": {
+        "name": "Ava Martinez",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover in the classroom upon hearing a gunshot, believing that movement would increase danger, and remained hidden, urging others to stay quiet. There is no evidence of running, following a crowd, fighting, or freezing; the agent made a conscious decision to hide in place. This behavior best fits the HIDE_IN_PLACE category.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Ava Martinez",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 963,
+          "completion_tokens": 136,
+          "total_tokens": 1099
+        }
+      }
+    },
+    "Ava Thompson": {
+      "persona": {
+        "name": "Ava Thompson",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently follows the crowd or specific individuals, expressing an inability to think independently and relying on others to determine the safest route. There is no evidence of independent decision-making, hiding, freezing, or fighting. This behavior best fits RUN_FOLLOWING_CROWD, as the agent's actions are driven by the instinct to follow others in a panic.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Ava Thompson",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 969,
+          "completion_tokens": 141,
+          "total_tokens": 1110
+        }
+      }
+    },
+    "Benjamin Moore": {
+      "persona": {
+        "name": "Benjamin Moore",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing the gunshot, the agent immediately decided to take cover in the cafeteria, explicitly stating that moving would increase danger. This indicates a choice to hide in place rather than run or follow others. There is no evidence of freezing, fighting, or running before hiding.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Benjamin Moore",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 762,
+          "completion_tokens": 121,
+          "total_tokens": 883
+        }
+      }
+    },
+    "Benjamin Scott": {
+      "persona": {
+        "name": "Benjamin Scott",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent explicitly describes being physically and mentally immobilized after hearing gunshots, unable to move despite recognizing the danger. There is no evidence of running, hiding, following a crowd, or fighting; the agent's dialog and actions indicate overwhelming fear and paralysis. This matches the definition of the FREEZE category.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Benjamin Scott",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 1002,
+          "completion_tokens": 126,
+          "total_tokens": 1128
+        }
+      }
+    },
+    "Caleb Wright": {
+      "persona": {
+        "name": "Caleb Wright",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the location of the shooter and chose to run toward the cafeteria kitchen, which they determined was the safest direction. There is no indication of following a crowd, freezing, hiding, or fighting. This demonstrates situational awareness and decisive, independent action.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Caleb Wright",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 769,
+          "completion_tokens": 121,
+          "total_tokens": 890
+        }
+      }
+    },
+    "Charlotte Adams": {
+      "persona": {
+        "name": "Charlotte Adams",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent repeatedly describes being unable to move or act due to overwhelming fear, remaining physically and mentally immobilized as the shooter approaches. There is no evidence of running, hiding, following a crowd, or fighting. This pattern of behavior is characteristic of the FREEZE response.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Charlotte Adams",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 899,
+          "completion_tokens": 119,
+          "total_tokens": 1018
+        }
+      }
+    },
+    "Charlotte Davis": {
+      "persona": {
+        "name": "Charlotte Davis",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "Upon hearing the gunshot, the agent observed everyone running and chose to follow the group, explicitly stating trust in the crowd's knowledge of the safest route. This indicates a reliance on the crowd's actions rather than independent assessment or decision-making. There is no evidence of freezing, hiding, fighting, or independent escape.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Charlotte Davis",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 924,
+          "completion_tokens": 133,
+          "total_tokens": 1057
+        }
+      }
+    },
+    "Chloe Wilson": {
+      "persona": {
+        "name": "Chloe Wilson",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "Upon hearing the gunshot, the agent immediately decided to sprint toward the far_right_yard, independently assessing the closest exit and urging others to follow. This demonstrates situational awareness and personal decisiveness, rather than simply following a crowd or freezing. The agent's actions best fit the RUN_INDEPENDENTLY category.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Chloe Wilson",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 886,
+          "completion_tokens": 131,
+          "total_tokens": 1017
+        }
+      }
+    },
+    "Daniel Lee": {
+      "persona": {
+        "name": "Daniel Lee",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially hid in place upon hearing gunshots, then moved to a better hiding spot as the threat got closer, and remained hidden. This sequence\u2014running to a new location to hide after initially taking cover\u2014best fits the HIDE_AFTER_RUNNING category. There is no evidence of following a crowd, independent escape, freezing, or fighting.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Daniel Lee",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1053,
+          "completion_tokens": 136,
+          "total_tokens": 1189
+        }
+      }
+    },
+    "David Thompson": {
+      "persona": {
+        "name": "David Thompson",
+        "occupation": "Unknown",
+        "age": "55",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chose to follow the group rather than independently assess escape routes, prioritizing staying with others for perceived safety. There is no evidence of hiding, freezing, fighting, or independent action; all decisions were driven by the crowd's movement. This aligns most closely with the RUN_FOLLOWING_CROWD category.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "David Thompson",
+          "occupation": "Unknown",
+          "age": "55",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 1136,
+          "completion_tokens": 134,
+          "total_tokens": 1270
+        }
+      }
+    },
+    "Diane Jackson": {
+      "persona": {
+        "name": "Diane Jackson",
+        "occupation": "Unknown",
+        "age": "45",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "Upon hearing the gunshot, the agent became immobilized by overwhelming fear and was unable to act or move, which is characteristic of the FREEZE response. There is no evidence of running, hiding, or fighting in the agent's actions or plans. The agent's timeline and memories clearly indicate tonic immobility rather than any other response.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Diane Jackson",
+          "occupation": "Unknown",
+          "age": "45",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 803,
+          "completion_tokens": 133,
+          "total_tokens": 936
+        }
+      }
+    },
+    "Elijah Thompson": {
+      "persona": {
+        "name": "Elijah Thompson",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent consistently chose to stay still in the classroom, explicitly stating that moving would be too risky and encouraging others to remain quiet and in place. There is no evidence of running, following a crowd, or attempting to fight. This behavior best fits the HIDE_IN_PLACE category, as the agent concealed themselves where they were out of fear and a belief that movement would increase danger.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Elijah Thompson",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1011,
+          "completion_tokens": 143,
+          "total_tokens": 1154
+        }
+      }
+    },
+    "Elizabeth Wilson": {
+      "persona": {
+        "name": "Elizabeth Wilson",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent repeatedly describes being paralyzed, unable to move, act, or even call for help despite knowing the danger is increasing. Their actions are consistently 'StayStill' and their mood is described as terrified and paralyzed, indicating complete immobility due to fear. This matches the definition of the FREEZE response, where overwhelming fear leads to tonic immobility.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Elizabeth Wilson",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 956,
+          "completion_tokens": 139,
+          "total_tokens": 1095
+        }
+      }
+    },
+    "Emily Zhang": {
+      "persona": {
+        "name": "Emily Zhang",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially ran away from the threat upon hearing gunshots, then chose to hide and stay still with others once reaching a perceived safer location. This sequence of fleeing followed by hiding fits the HIDE_AFTER_RUNNING category. There is no evidence of freezing, fighting, or following a crowd, and the running was not entirely independent as it was followed by hiding.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Emily Zhang",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1216,
+          "completion_tokens": 139,
+          "total_tokens": 1355
+        }
+      }
+    },
+    "Emma Rodriguez": {
+      "persona": {
+        "name": "Emma Rodriguez",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially prepared to confront the shooter to protect others, indicating a willingness to fight if necessary. However, upon learning the shooter's location, the agent chose to move to a hiding spot with Elizabeth, prioritizing concealment while remaining ready to act. This sequence\u2014running to a safer location and then hiding\u2014best fits the HIDE_AFTER_RUNNING category.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "FIGHT",
+          "HIDE_IN_PLACE",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE"
+        ],
+        "persona": {
+          "name": "Emma Rodriguez",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 971,
+          "completion_tokens": 139,
+          "total_tokens": 1110
+        }
+      }
+    },
+    "Emma Taylor": {
+      "persona": {
+        "name": "Emma Taylor",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FIGHT",
+        "reasoning": "The agent explicitly decided to confront the shooter to protect others, even after being shot, and did not attempt to run, hide, or freeze. Their actions and dialog show a clear intent to fight as a last resort. This aligns most closely with the FIGHT category.",
+        "ranking": [
+          "FIGHT",
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD"
+        ],
+        "persona": {
+          "name": "Emma Taylor",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 869,
+          "completion_tokens": 119,
+          "total_tokens": 988
+        }
+      }
+    },
+    "Ethan Brown": {
+      "persona": {
+        "name": "Ethan Brown",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the situation upon hearing a gunshot, chose the fastest exit based on personal knowledge, and led others rather than following a crowd. The dialog and plans show decisive, situationally aware action rather than defaulting to group behavior or freezing. There is no evidence of hiding, freezing, or fighting.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Ethan Brown",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1022,
+          "completion_tokens": 132,
+          "total_tokens": 1154
+        }
+      }
+    },
+    "Ethan Wilson": {
+      "persona": {
+        "name": "Ethan Wilson",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chooses to follow the group and relies on others (Olivia, Jackson, Aiden) to determine the direction to safety, rather than making independent decisions or evaluating escape routes. Their actions and dialog show a clear dependence on the crowd's movement, driven by panic and trust in others' judgment. There is no evidence of hiding, freezing, or fighting behaviors.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Ethan Wilson",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1124,
+          "completion_tokens": 145,
+          "total_tokens": 1269
+        }
+      }
+    },
+    "Evelyn Martinez": {
+      "persona": {
+        "name": "Evelyn Martinez",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent heard a gunshot, quickly assessed the environment, and independently chose the safest exit route based on knowledge of the building layout, rather than following a crowd or hiding. The agent's actions show situational awareness and decisiveness under pressure. There is no evidence of freezing, hiding, following others, or fighting.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Evelyn Martinez",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 865,
+          "completion_tokens": 132,
+          "total_tokens": 997
+        }
+      }
+    },
+    "Frank Ramirez": {
+      "persona": {
+        "name": "Frank Ramirez",
+        "occupation": "Unknown",
+        "age": "58",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover and remained still after hearing a gunshot, explicitly deciding that movement would increase danger. There is no evidence of running, following a crowd, or attempting to fight; instead, the agent focused on hiding in place and keeping others calm. This behavior best fits the HIDE_IN_PLACE category.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Frank Ramirez",
+          "occupation": "Unknown",
+          "age": "58",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 907,
+          "completion_tokens": 130,
+          "total_tokens": 1037
+        }
+      }
+    },
+    "Gloria Washington": {
+      "persona": {
+        "name": "Gloria Washington",
+        "occupation": "Unknown",
+        "age": "52",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent explicitly states they are following the crowd to escape, expressing uncertainty about the safest route and relying on the group's direction. Their actions and dialog reinforce that they are not making an independent decision but are instead defaulting to the crowd's movement. There is no evidence of hiding, freezing, fighting, or independent escape.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Gloria Washington",
+          "occupation": "Unknown",
+          "age": "52",
+          "gender": "Female"
+        },
+        "final_status": "Escaped",
+        "token_usage": {
+          "prompt_tokens": 895,
+          "completion_tokens": 134,
+          "total_tokens": 1029
+        }
+      }
+    },
+    "Harper Garcia": {
+      "persona": {
+        "name": "Harper Garcia",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FIGHT",
+        "reasoning": "The agent explicitly decides to stay in place and prepare to confront the shooter, expressing a plan to protect themselves and others rather than fleeing or hiding. Their dialog and plan indicate a willingness to engage the shooter if necessary, which aligns with the 'FIGHT' category. There is no evidence of running, hiding, freezing, or following a crowd.",
+        "ranking": [
+          "FIGHT",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD"
+        ],
+        "persona": {
+          "name": "Harper Garcia",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 926,
+          "completion_tokens": 134,
+          "total_tokens": 1060
+        }
+      }
+    },
+    "Harper Wilson": {
+      "persona": {
+        "name": "Harper Wilson",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately decided to stay still and hide in the cafeteria upon hearing a gunshot, believing that moving would increase danger. This decision was reinforced when the shooter entered the cafeteria, with the agent remaining motionless out of fear of being noticed. There is no evidence of running, following a crowd, fighting, or freezing in place; the behavior is best described as hiding in place.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Harper Wilson",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 950,
+          "completion_tokens": 144,
+          "total_tokens": 1094
+        }
+      }
+    },
+    "Helen Martinez": {
+      "persona": {
+        "name": "Helen Martinez",
+        "occupation": "Unknown",
+        "age": "48",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing the gunshot, the agent immediately directed students to a nearby hiding spot and remained there, focusing on keeping everyone quiet and calm. There is no indication of running a significant distance before hiding; the response was to take cover in place rather than flee. The agent's actions best fit the HIDE_IN_PLACE category, as movement was limited to finding immediate concealment rather than escape.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "FREEZE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Helen Martinez",
+          "occupation": "Unknown",
+          "age": "48",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1088,
+          "completion_tokens": 145,
+          "total_tokens": 1233
+        }
+      }
+    },
+    "Henry Johnson": {
+      "persona": {
+        "name": "Henry Johnson",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately sought cover upon hearing a gunshot and remained hidden in the same general area, motivated by fear and the belief that movement would increase danger. There is no evidence of running before hiding, following a crowd, or independent escape attempts. The agent's actions and plans consistently reflect a decision to hide in place rather than flee or fight.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Henry Johnson",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1041,
+          "completion_tokens": 136,
+          "total_tokens": 1177
+        }
+      }
+    },
+    "Isabella Kim": {
+      "persona": {
+        "name": "Isabella Kim",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chose to follow the crowd, sticking with others like Mila, Olivia, and Madison, without independently evaluating the safest route. Their actions were driven by panic and a desire for safety in numbers, not by personal assessment or strategic hiding. There is no evidence of independent running, hiding in place, freezing, or fighting.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Isabella Kim",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1132,
+          "completion_tokens": 136,
+          "total_tokens": 1268
+        }
+      }
+    },
+    "Isabella Lopez": {
+      "persona": {
+        "name": "Isabella Lopez",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "Upon hearing the gunshot, the agent immediately decided to run toward the cafeteria kitchen, independently assessing it as a safer location and urging others to follow. This shows situational awareness and personal decisiveness rather than simply following a crowd. There is no evidence of hiding, freezing, or fighting behaviors.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Isabella Lopez",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 777,
+          "completion_tokens": 127,
+          "total_tokens": 904
+        }
+      }
+    },
+    "Jackson Davis": {
+      "persona": {
+        "name": "Jackson Davis",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent's memories and timeline show no awareness of an active shooter or any threat; their actions are focused on social interactions and discussing science topics. There is no evidence of fear, panic, or any response to danger, such as running, hiding, freezing, or fighting. Therefore, none of the active shooter response categories are directly applicable, but if forced to choose, 'FREEZE' is the closest, as the agent is not reacting to any threat at all.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jackson Davis",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 803,
+          "completion_tokens": 159,
+          "total_tokens": 962
+        }
+      }
+    },
+    "Jackson Lee": {
+      "persona": {
+        "name": "Jackson Lee",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent heard a gunshot, quickly assessed the environment, and chose to sprint toward the kitchen yard, which was identified as the closest exit. There is no mention of following a crowd or hiding, and the agent's actions reflect independent decision-making based on situational awareness. This best fits the RUN_INDEPENDENTLY category.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jackson Lee",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Escaped",
+        "token_usage": {
+          "prompt_tokens": 925,
+          "completion_tokens": 134,
+          "total_tokens": 1059
+        }
+      }
+    },
+    "Jacob Williams": {
+      "persona": {
+        "name": "Jacob Williams",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent heard a gunshot, assessed the situation, and chose to move away from the shooter by selecting specific locations (hallway2, then far_right_yard) based on perceived safety, rather than following a crowd or hiding immediately. The agent's actions and plans show independent decision-making and situational awareness. There is no evidence of freezing, fighting, or simply hiding in place.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jacob Williams",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 876,
+          "completion_tokens": 146,
+          "total_tokens": 1022
+        }
+      }
+    },
+    "James Rodriguez": {
+      "persona": {
+        "name": "James Rodriguez",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the situation after hearing a gunshot and chose to flee toward the kitchen yard, explicitly identifying it as the shortest and safest route. The agent did not follow a crowd, hide, freeze, or attempt to fight, but instead demonstrated situational awareness and decisiveness. This behavior best fits RUN_INDEPENDENTLY.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "James Rodriguez",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 795,
+          "completion_tokens": 135,
+          "total_tokens": 930
+        }
+      }
+    },
+    "James Wilson": {
+      "persona": {
+        "name": "James Wilson",
+        "occupation": "Unknown",
+        "age": "48",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent's actions after hearing the gunshot were to follow the crowd to safety, explicitly stating the intention to do so and encouraging others to stick together and follow. There is no evidence of independent route selection, hiding, freezing, or fighting. The behavior is best described as fleeing alongside the crowd out of panic and uncertainty.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "James Wilson",
+          "occupation": "Unknown",
+          "age": "48",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 823,
+          "completion_tokens": 135,
+          "total_tokens": 958
+        }
+      }
+    },
+    "Jason Miller": {
+      "persona": {
+        "name": "Jason Miller",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent's actions and dialog show they fled alongside a group, explicitly stating they followed the crowd without independently assessing the safest route. Their plan was to stick with others out of panic and uncertainty, not personal judgment. There is no evidence of hiding, freezing, fighting, or independent decision-making.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jason Miller",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 854,
+          "completion_tokens": 129,
+          "total_tokens": 983
+        }
+      }
+    },
+    "Jennifer Lee": {
+      "persona": {
+        "name": "Jennifer Lee",
+        "occupation": "Unknown",
+        "age": "36",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "Upon hearing a gunshot, the agent quickly assessed the situation and chose the far_right_yard as the safest and closest exit, explicitly noting it was less likely to be crowded and urging another individual to follow. This demonstrates independent decision-making based on environmental awareness rather than following a crowd. There is no evidence of freezing, hiding, or fighting behaviors.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jennifer Lee",
+          "occupation": "Unknown",
+          "age": "36",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 784,
+          "completion_tokens": 138,
+          "total_tokens": 922
+        }
+      }
+    },
+    "Jordan Lee": {
+      "persona": {
+        "name": "Jordan Lee",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Nonbinary"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "Upon hearing the gunshot, the agent immediately decided to run toward the cafeteria kitchen to find a hiding spot, indicating an initial flight response followed by an intent to hide. This sequence matches the HIDE_AFTER_RUNNING category, as the agent first creates distance from the threat and then seeks concealment. There is no evidence of following a crowd, freezing, fighting, or hiding in place without first running.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Jordan Lee",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Nonbinary"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 912,
+          "completion_tokens": 147,
+          "total_tokens": 1059
+        }
+      }
+    },
+    "Karen Martinez": {
+      "persona": {
+        "name": "Karen Martinez",
+        "occupation": "Unknown",
+        "age": "42",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately decided to stay still and instructed others to remain quiet and hidden upon hearing gunshots, without attempting to flee or fight. This indicates a choice to conceal in their current location due to perceived danger in moving. There is no evidence of running, following a crowd, freezing, or fighting.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Karen Martinez",
+          "occupation": "Unknown",
+          "age": "42",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 858,
+          "completion_tokens": 127,
+          "total_tokens": 985
+        }
+      }
+    },
+    "Liam Johnson": {
+      "persona": {
+        "name": "Liam Johnson",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately decided to stay still and hide in the lounge upon hearing gunshots, warning others to do the same and repeatedly choosing not to move despite the shooter getting closer. There is no evidence of running, following a crowd, fighting, or freezing; the agent is actively making decisions to remain concealed in place. This behavior best fits HIDE_IN_PLACE, as the agent hides where they are rather than attempting to escape or relocate.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Liam Johnson",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 921,
+          "completion_tokens": 154,
+          "total_tokens": 1075
+        }
+      }
+    },
+    "Liam Wright": {
+      "persona": {
+        "name": "Liam Wright",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent became completely immobilized after hearing a gunshot, explicitly stating an inability to move or act due to overwhelming fear. This matches the definition of the FREEZE category, where tonic immobility prevents any attempt to run, hide, or fight. There is no evidence of fleeing, hiding, or fighting behaviors.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Liam Wright",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 739,
+          "completion_tokens": 129,
+          "total_tokens": 868
+        }
+      }
+    },
+    "Lily Kim": {
+      "persona": {
+        "name": "Lily Kim",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially fled by following the crowd without independent assessment, then transitioned to hiding with the group when the shooter was nearby. This sequence best fits the HIDE_AFTER_RUNNING category, as it combines running with the crowd and then hiding. The agent did not act independently, freeze, or attempt to fight.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_IN_PLACE",
+          "RUN_INDEPENDENTLY",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Lily Kim",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 849,
+          "completion_tokens": 128,
+          "total_tokens": 977
+        }
+      }
+    },
+    "Lisa Patel": {
+      "persona": {
+        "name": "Lisa Patel",
+        "occupation": "Unknown",
+        "age": "33",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent became immobilized by fear immediately after hearing the gunshot and remained physically and mentally paralyzed throughout the incident, unable to move or act. There is no evidence of running, hiding, following a crowd, or fighting. This pattern of behavior is best described as freezing due to overwhelming fear and shock.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Lisa Patel",
+          "occupation": "Unknown",
+          "age": "33",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 986,
+          "completion_tokens": 127,
+          "total_tokens": 1113
+        }
+      }
+    },
+    "Logan Martinez": {
+      "persona": {
+        "name": "Logan Martinez",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent consistently made independent decisions about where to flee based on knowledge of the shooter's location and the environment, choosing routes that avoided crowds and urging others to follow. There is no evidence of following a crowd, freezing, hiding, or fighting; instead, the agent demonstrated situational awareness and critical thinking under pressure. This best fits the RUN_INDEPENDENTLY category.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Logan Martinez",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1016,
+          "completion_tokens": 142,
+          "total_tokens": 1158
+        }
+      }
+    },
+    "Lucas Garcia": {
+      "persona": {
+        "name": "Lucas Garcia",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the environment and chose the kitchen yard as the safest and fastest escape route, instructing others to follow. This demonstrates situational awareness and decisiveness, rather than simply following a crowd or hiding. There is no evidence of freezing, hiding, or fighting behaviors.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Lucas Garcia",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 778,
+          "completion_tokens": 124,
+          "total_tokens": 902
+        }
+      }
+    },
+    "Lucas Wilson": {
+      "persona": {
+        "name": "Lucas Wilson",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing a gunshot, the agent immediately decided to take cover and remain still, prioritizing concealment over movement. Throughout the incident, the agent consistently chose to stay hidden and quiet, advising others to do the same, and never attempted to run or fight. This behavior best fits the HIDE_IN_PLACE category, as the agent concealed themselves in their current location out of fear and a belief that moving would increase danger.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Lucas Wilson",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1059,
+          "completion_tokens": 152,
+          "total_tokens": 1211
+        }
+      }
+    },
+    "Madison Lee": {
+      "persona": {
+        "name": "Madison Lee",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently follows the crowd's movements without independently assessing alternative escape routes, expressing uncertainty and a desire not to be left behind. Their actions and dialog focus on staying with the group and urging Zainab to do the same, indicating reliance on the crowd's decisions. There is no evidence of independent action, hiding, freezing, or fighting.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Madison Lee",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1014,
+          "completion_tokens": 139,
+          "total_tokens": 1153
+        }
+      }
+    },
+    "Marcus Johnson": {
+      "persona": {
+        "name": "Marcus Johnson",
+        "occupation": "Unknown",
+        "age": "35",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing the gunshot, the agent immediately decided to move to a nearby hiding spot with others and remained hidden, focusing on keeping everyone calm and safe. There is no evidence of running first and then hiding, following a crowd, freezing, fighting, or independent escape. The behavior is best described as immediately taking cover in place due to perceived danger.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Marcus Johnson",
+          "occupation": "Unknown",
+          "age": "35",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 998,
+          "completion_tokens": 137,
+          "total_tokens": 1135
+        }
+      }
+    },
+    "Margaret Wilson": {
+      "persona": {
+        "name": "Margaret Wilson",
+        "occupation": "Unknown",
+        "age": "52",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent heard gunshots and decided to lead a group to evacuate by following the crowd to the far_right_yard, explicitly stating the plan to follow the group rather than independently choosing a route. The agent's actions and dialog focus on group movement and evacuation, not on hiding, freezing, or fighting. This behavior best fits RUN_FOLLOWING_CROWD, as the agent is moving with others toward an exit in response to the threat.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Margaret Wilson",
+          "occupation": "Unknown",
+          "age": "52",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 869,
+          "completion_tokens": 160,
+          "total_tokens": 1029
+        }
+      }
+    },
+    "Mason Scott": {
+      "persona": {
+        "name": "Mason Scott",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent's memories and actions show they immediately followed the crowd after hearing gunshots, expressing panic and a lack of independent decision-making. Their dialog and plans indicate reliance on group movement rather than personal assessment of safety. There is no evidence of hiding, freezing, fighting, or independent escape.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Mason Scott",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 987,
+          "completion_tokens": 128,
+          "total_tokens": 1115
+        }
+      }
+    },
+    "Mateo Diaz": {
+      "persona": {
+        "name": "Mateo Diaz",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover and remained hidden upon hearing gunshots, choosing not to move and warning others to stay quiet. There is no evidence of running, following a crowd, or attempting to fight; the agent's actions are consistent with hiding in place due to fear and a belief that movement would increase danger. The agent's plan and actions throughout the incident reflect a commitment to staying concealed in their current location.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Mateo Diaz",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 929,
+          "completion_tokens": 149,
+          "total_tokens": 1078
+        }
+      }
+    },
+    "Matthew Brown": {
+      "persona": {
+        "name": "Matthew Brown",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently follows the crowd without independently assessing the safest route, as shown by their actions and internal plans during the incident. Their behavior is driven by panic and a reliance on group movement rather than personal judgment. There is no evidence of independent decision-making, hiding, freezing, or fighting.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Matthew Brown",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 867,
+          "completion_tokens": 128,
+          "total_tokens": 995
+        }
+      }
+    },
+    "Mia Patel": {
+      "persona": {
+        "name": "Mia Patel",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent heard a gunshot and chose to follow the crowd rather than independently assess the safest route, explicitly stating a preference to go with others for safety. This indicates reliance on group behavior in a panic situation. There is no evidence of hiding, freezing, fighting, or independent action.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Mia Patel",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 750,
+          "completion_tokens": 127,
+          "total_tokens": 877
+        }
+      }
+    },
+    "Mia Rodriguez": {
+      "persona": {
+        "name": "Mia Rodriguez",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent's memories and timeline consistently describe being completely immobilized by fear, unable to move or act despite the danger. There is no evidence of running, hiding, following others, or fighting; the agent is paralyzed and unable to respond. This matches the definition of the FREEZE category.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Mia Rodriguez",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 946,
+          "completion_tokens": 124,
+          "total_tokens": 1070
+        }
+      }
+    },
+    "Michael Rodriguez": {
+      "persona": {
+        "name": "Michael Rodriguez",
+        "occupation": "Unknown",
+        "age": "41",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent heard a gunshot and immediately decided to stay still and take cover in their current location, believing that movement would increase danger. This indicates a choice to hide in place rather than run, fight, or freeze. There is no evidence of following a crowd, running independently, or transitioning to hiding after running.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Michael Rodriguez",
+          "occupation": "Unknown",
+          "age": "41",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 734,
+          "completion_tokens": 130,
+          "total_tokens": 864
+        }
+      }
+    },
+    "Mila Patel": {
+      "persona": {
+        "name": "Mila Patel",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FIGHT",
+        "reasoning": "The agent explicitly decides to confront the shooter to protect themselves and others, moving toward the threat rather than fleeing or hiding. Their dialog and plans show a clear intent to engage the shooter directly, which aligns with an active attempt to stop the attacker. There is no evidence of freezing, hiding, or following a crowd.",
+        "ranking": [
+          "FIGHT",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE"
+        ],
+        "persona": {
+          "name": "Mila Patel",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 911,
+          "completion_tokens": 128,
+          "total_tokens": 1039
+        }
+      }
+    },
+    "Natalie Chen": {
+      "persona": {
+        "name": "Natalie Chen",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover in the classroom upon hearing a gunshot and repeatedly urged others to stay down and quiet, showing no attempt to flee or fight. Their actions and plans consistently reflect a decision to hide in place due to fear and perceived danger in moving. There is no evidence of running, following a crowd, freezing, or fighting.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Natalie Chen",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1044,
+          "completion_tokens": 135,
+          "total_tokens": 1179
+        }
+      }
+    },
+    "Noah Johnson": {
+      "persona": {
+        "name": "Noah Johnson",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing the gunshot, the agent immediately took cover behind the cafe bar counter and remained hidden and silent as the shooter entered, indicating a decision to conceal in place rather than flee or follow others. There is no evidence of running, following a crowd, or attempting to fight or freeze. The agent's actions and plans are consistent with hiding in their current location due to perceived danger.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Noah Johnson",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 919,
+          "completion_tokens": 144,
+          "total_tokens": 1063
+        }
+      }
+    },
+    "Noah Martinez": {
+      "persona": {
+        "name": "Noah Martinez",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent became completely immobilized after hearing the gunshot, unable to move or act due to overwhelming fear and shock, despite the increasing danger. There is no evidence of running, hiding, following a crowd, or fighting. This pattern of behavior is characteristic of the FREEZE response.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Noah Martinez",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 882,
+          "completion_tokens": 122,
+          "total_tokens": 1004
+        }
+      }
+    },
+    "Olivia Taylor": {
+      "persona": {
+        "name": "Olivia Taylor",
+        "occupation": "Unknown",
+        "age": "18",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately decided to stay still and hide upon hearing the gunshot, consistently choosing to remain hidden and instructing others to do the same, rather than attempting to flee or fight. There is no evidence of running, following a crowd, or freezing; the agent's actions are deliberate concealment in their current location. This best fits the HIDE_IN_PLACE category.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Olivia Taylor",
+          "occupation": "Unknown",
+          "age": "18",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1087,
+          "completion_tokens": 141,
+          "total_tokens": 1228
+        }
+      }
+    },
+    "Olivia Williams": {
+      "persona": {
+        "name": "Olivia Williams",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover and remained hidden upon hearing gunshots, explicitly deciding not to move due to fear that movement would increase danger. The agent also advised others to stay still and hide, rejecting suggestions to relocate. There is no evidence of running, following a crowd, fighting, or freezing; the behavior is best described as hiding in place.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Olivia Williams",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 983,
+          "completion_tokens": 136,
+          "total_tokens": 1119
+        }
+      }
+    },
+    "Robert Chen": {
+      "persona": {
+        "name": "Robert Chen",
+        "occupation": "Unknown",
+        "age": "45",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chose to follow the crowd for safety, explicitly stating an inability to think clearly and a reliance on others' actions, especially after being injured. There is no evidence of independent route selection, freezing, hiding, or fighting. The agent's actions and dialog best fit the RUN_FOLLOWING_CROWD category.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Robert Chen",
+          "occupation": "Unknown",
+          "age": "45",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 1259,
+          "completion_tokens": 135,
+          "total_tokens": 1394
+        }
+      }
+    },
+    "Sarah Johnson": {
+      "persona": {
+        "name": "Sarah Johnson",
+        "occupation": "Unknown",
+        "age": "38",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently follows the group, explicitly stating panic and reliance on the crowd for direction rather than independent decision-making. There is no evidence of hiding, freezing, fighting, or independent action. This aligns most closely with RUN_FOLLOWING_CROWD, as the agent's actions are driven by the crowd's movement and a lack of personal judgment.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Sarah Johnson",
+          "occupation": "Unknown",
+          "age": "38",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1057,
+          "completion_tokens": 140,
+          "total_tokens": 1197
+        }
+      }
+    },
+    "Scarlett Kim": {
+      "persona": {
+        "name": "Scarlett Kim",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_INDEPENDENTLY",
+        "reasoning": "The agent independently assessed the environment, identified the kitchen yard as the shortest and safest escape route, and urged another person to follow, demonstrating situational awareness and decisive action. There is no indication of following a crowd, freezing, hiding, or fighting. The behavior is best described as running independently based on personal judgment.",
+        "ranking": [
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Scarlett Kim",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 912,
+          "completion_tokens": 131,
+          "total_tokens": 1043
+        }
+      }
+    },
+    "Sebastian Garcia": {
+      "persona": {
+        "name": "Sebastian Garcia",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently follows the crowd's movements, urging others to stay together and not making independent decisions about escape routes. There is no evidence of hiding, freezing, fighting, or independent action; the agent's behavior is driven by group dynamics and a desire for collective safety. This aligns most closely with RUN_FOLLOWING_CROWD.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Sebastian Garcia",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 959,
+          "completion_tokens": 137,
+          "total_tokens": 1096
+        }
+      }
+    },
+    "Sophia Anderson": {
+      "persona": {
+        "name": "Sophia Anderson",
+        "occupation": "Unknown",
+        "age": "17",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chose to follow the crowd to safety after hearing gunshots and learning the shooter's location, encouraging others to stay together rather than making an independent escape or hiding. There is no evidence of freezing, fighting, or hiding at any point; the agent's actions are driven by the instinct to stick with the group. This best fits the RUN_FOLLOWING_CROWD category.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Sophia Anderson",
+          "occupation": "Unknown",
+          "age": "17",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 887,
+          "completion_tokens": 148,
+          "total_tokens": 1035
+        }
+      }
+    },
+    "Sophia Garcia": {
+      "persona": {
+        "name": "Sophia Garcia",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent's actions and plans consistently involve following Marcus, Zoe, Chloe, and the crowd in response to the gunshot, without any indication of independent route selection or hiding. The agent's dialog and internal plans show a reliance on group movement rather than personal assessment. This aligns most closely with the RUN_FOLLOWING_CROWD category.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Sophia Garcia",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 855,
+          "completion_tokens": 138,
+          "total_tokens": 993
+        }
+      }
+    },
+    "Thomas Wright": {
+      "persona": {
+        "name": "Thomas Wright",
+        "occupation": "Unknown",
+        "age": "39",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "The agent immediately took cover in the cafeteria upon hearing gunshots and instructed others to stay down and quiet, showing no attempt to flee or fight. The decision to hide in place was driven by the belief that movement would increase danger, and the agent remained hidden even as the shooter entered the cafeteria. There is no evidence of running, following a crowd, freezing, or fighting.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "HIDE_AFTER_RUNNING",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Thomas Wright",
+          "occupation": "Unknown",
+          "age": "39",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 882,
+          "completion_tokens": 142,
+          "total_tokens": 1024
+        }
+      }
+    },
+    "Tyler Johnson": {
+      "persona": {
+        "name": "Tyler Johnson",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "FIGHT",
+        "reasoning": "The agent hears gunshots, immediately decides to move toward the shooter, and explicitly plans to confront them if necessary. This indicates a willingness to engage the threat directly rather than fleeing or hiding. The behavior aligns most closely with the FIGHT category, as the agent is preparing for direct confrontation.",
+        "ranking": [
+          "FIGHT",
+          "RUN_INDEPENDENTLY",
+          "RUN_FOLLOWING_CROWD",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE"
+        ],
+        "persona": {
+          "name": "Tyler Johnson",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Male"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 908,
+          "completion_tokens": 123,
+          "total_tokens": 1031
+        }
+      }
+    },
+    "Victoria Wright": {
+      "persona": {
+        "name": "Victoria Wright",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent heard a gunshot and immediately decided to follow the crowd for safety, explicitly stating the intention to stick with others rather than making an independent assessment. There is no evidence of hiding, freezing, or fighting; the behavior is driven by the instinct to follow the group in a panic. This aligns most closely with RUN_FOLLOWING_CROWD.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Victoria Wright",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 739,
+          "completion_tokens": 141,
+          "total_tokens": 880
+        }
+      }
+    },
+    "Walter Thompson": {
+      "persona": {
+        "name": "Walter Thompson",
+        "occupation": "Unknown",
+        "age": "62",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_AFTER_RUNNING",
+        "reasoning": "The agent initially ran away from the threat with Zoe, then chose to hide behind benches in the outside courtyard once they felt some distance from the shooter. This sequence\u2014running first, then hiding\u2014matches the HIDE_AFTER_RUNNING category. The agent did not freeze, fight, or simply hide in place, and their actions were not solely crowd-following or fully independent running.",
+        "ranking": [
+          "HIDE_AFTER_RUNNING",
+          "RUN_INDEPENDENTLY",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Walter Thompson",
+          "occupation": "Unknown",
+          "age": "62",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1098,
+          "completion_tokens": 142,
+          "total_tokens": 1240
+        }
+      }
+    },
+    "William Davis": {
+      "persona": {
+        "name": "William Davis",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Male"
+      },
+      "behavior": {
+        "classification": "HIDE_IN_PLACE",
+        "reasoning": "Upon hearing the gunshot, the agent immediately took cover at a nearby hiding spot and remained there, focusing on staying hidden and encouraging others to do the same. There is no evidence of running before hiding, following a crowd, freezing, fighting, or independent escape. The agent's actions best fit the HIDE_IN_PLACE category, as they concealed themselves at their current location out of fear and caution.",
+        "ranking": [
+          "HIDE_IN_PLACE",
+          "HIDE_AFTER_RUNNING",
+          "FREEZE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "William Davis",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Male"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1087,
+          "completion_tokens": 147,
+          "total_tokens": 1234
+        }
+      }
+    },
+    "Zainab Malik": {
+      "persona": {
+        "name": "Zainab Malik",
+        "occupation": "Unknown",
+        "age": "15",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FREEZE",
+        "reasoning": "The agent became immobilized immediately after hearing the gunshot and remained unable to move even after learning the shooter's location, describing themselves as paralyzed and frozen in fear. There is no evidence of running, hiding, or fighting\u2014only complete physical and mental immobility. This matches the definition of the FREEZE category.",
+        "ranking": [
+          "FREEZE",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Zainab Malik",
+          "occupation": "Unknown",
+          "age": "15",
+          "gender": "Female"
+        },
+        "final_status": "Dead",
+        "token_usage": {
+          "prompt_tokens": 832,
+          "completion_tokens": 130,
+          "total_tokens": 962
+        }
+      }
+    },
+    "Zoe Miller": {
+      "persona": {
+        "name": "Zoe Miller",
+        "occupation": "Unknown",
+        "age": "16",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "FIGHT",
+        "reasoning": "The agent explicitly decides to confront the shooter to protect others, moving toward danger despite fear and instructing someone else to hide. This is a clear example of actively attempting to stop the shooter, which aligns with the FIGHT category. There is no evidence of fleeing, hiding, freezing, or following a crowd.",
+        "ranking": [
+          "FIGHT",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "RUN_FOLLOWING_CROWD",
+          "FREEZE"
+        ],
+        "persona": {
+          "name": "Zoe Miller",
+          "occupation": "Unknown",
+          "age": "16",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 1034,
+          "completion_tokens": 127,
+          "total_tokens": 1161
+        }
+      }
+    },
+    "Zoe Patel": {
+      "persona": {
+        "name": "Zoe Patel",
+        "occupation": "Unknown",
+        "age": "14",
+        "gender": "Female"
+      },
+      "behavior": {
+        "classification": "RUN_FOLLOWING_CROWD",
+        "reasoning": "The agent consistently chooses to follow Mateo and the group, expressing trust in their direction and seeking reassurance rather than making independent decisions. Their actions and dialog indicate reliance on the crowd's movement due to panic and uncertainty. There is no evidence of independent escape, hiding, freezing, or fighting.",
+        "ranking": [
+          "RUN_FOLLOWING_CROWD",
+          "RUN_INDEPENDENTLY",
+          "HIDE_AFTER_RUNNING",
+          "HIDE_IN_PLACE",
+          "FREEZE",
+          "FIGHT"
+        ],
+        "persona": {
+          "name": "Zoe Patel",
+          "occupation": "Unknown",
+          "age": "14",
+          "gender": "Female"
+        },
+        "final_status": "Alive",
+        "token_usage": {
+          "prompt_tokens": 918,
+          "completion_tokens": 127,
+          "total_tokens": 1045
+        }
+      }
+    }
+  },
+  "statistics": {
+    "total_agents": 80,
+    "behavior": {
+      "HIDE_IN_PLACE": 22,
+      "HIDE_AFTER_RUNNING": 8,
+      "RUN_INDEPENDENTLY": 13,
+      "FREEZE": 11,
+      "RUN_FOLLOWING_CROWD": 21,
+      "FIGHT": 5
+    },
+    "api_usage": {
+      "total_requests": 80,
+      "token_usage": {
+        "prompt_tokens": 75088,
+        "completion_tokens": 10848,
+        "total_tokens": 85936
+      }
+    },
+    "distribution_metrics": {
+      "kl_divergence": 0.019648262299643143,
+      "reverse_kl": 0.018861800049493935,
+      "js_divergence": 0.0047866616769748,
+      "entropy_gap": 0.022468994189181357,
+      "tvd": 0.07499999995500004,
+      "ground_truth_entropy": 1.700222920138572,
+      "observed_entropy": 1.6777539259493905
+    },
+    "topk_metrics": {
+      "1": {
+        "kl_divergence": 0.019648262299643143,
+        "reverse_kl": 0.018861800049493935,
+        "js_divergence": 0.0047866616769748,
+        "entropy_gap": 0.022468994189181357,
+        "tvd": 0.07499999995500004,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.6777539259493905
+      },
+      "2": {
+        "kl_divergence": 0.10952143197924319,
+        "reverse_kl": 0.11098755423172892,
+        "js_divergence": 0.02698852969144875,
+        "entropy_gap": 0.03766522512267856,
+        "tvd": 0.19749999988150008,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.6625576950158933
+      },
+      "3": {
+        "kl_divergence": 0.1626546880135423,
+        "reverse_kl": 0.15587710543324354,
+        "js_divergence": 0.0383340985378781,
+        "entropy_gap": 0.03865031109409123,
+        "tvd": 0.23583333319183322,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.6615726090444807
+      },
+      "4": {
+        "kl_divergence": 0.12762392522274107,
+        "reverse_kl": 0.09874049683399698,
+        "js_divergence": 0.026410215077873212,
+        "entropy_gap": 0.062331822796866776,
+        "tvd": 0.15062499990962505,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.6378910973417051
+      },
+      "5": {
+        "kl_divergence": 0.16766024929800663,
+        "reverse_kl": 0.13448520659486884,
+        "js_divergence": 0.035623677403239004,
+        "entropy_gap": 0.03111502371912045,
+        "tvd": 0.2274999998635,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.6691078964194515
+      },
+      "6": {
+        "kl_divergence": 0.09153654908948297,
+        "reverse_kl": 0.08880970156062126,
+        "js_divergence": 0.022348226923078765,
+        "entropy_gap": -0.09153654908948305,
+        "tvd": 0.20666666654266674,
+        "ground_truth_entropy": 1.700222920138572,
+        "observed_entropy": 1.791759469228055
+      }
+    }
+  }
+}

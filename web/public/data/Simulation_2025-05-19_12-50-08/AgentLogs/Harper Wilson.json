@@ -1,0 +1,3815 @@
+{
+  "persona": {
+    "name": "Harper Wilson",
+    "role": "Student (Grade 12)",
+    "age": "17",
+    "gender": "Female",
+    "pronouns": "she/her",
+    "personality_traits": "Social butterfly, friendly, outgoing, well-liked",
+    "emotional_disposition": "Genuinely positive and caring",
+    "motivations_goals": "Create connections between different social groups and study communications",
+    "communication_style": "Warm, inclusive, good at making others feel comfortable",
+    "knowledge_scope": "Social dynamics, conflict resolution, event planning",
+    "backstory": "Natural mediator who brings together students from different cliques"
+  },
+  "traits": {
+    "training_level": "Low",
+    "familiarity_level": "High",
+    "shooter_perception_level": "Direct"
+  },
+  "observations": [
+    {
+      "time": 0.369202,
+      "observation": {
+        "mood": "neutral",
+        "current_movement_state": "stay_still",
+        "isHiding": false,
+        "shooter_info": null,
+        "surrounding_people": [
+          {
+            "name": "Aiden Thompson",
+            "health_status": 0
+          }
+        ],
+        "neighbor_regions": [
+          {
+            "id": "reception_desk",
+            "distance": 23,
+            "description": "Front desk where visitors check in",
+            "direction": "north"
+          },
+          {
+            "id": "hallway1",
+            "distance": 10,
+            "description": "Hallway connecting entrance to other areas",
+            "direction": "west"
+          },
+          {
+            "id": "cafeteria_kitchen",
+            "distance": 16,
+            "description": "Kitchen area where food is prepared.",
+            "direction": "south"
+          }
+        ],
+        "interest_points": null,
+        "surrounding_conversation": [],
+        "pending_events": [],
+        "available_action_ids": [
+          "stay_still",
+          "reception_desk",
+          "hallway1",
+          "cafeteria_kitchen",
+          "aiden_thompson"
+        ]
+      }
+    },
+    {
+      "time": 8.223232,
+      "observation": {
+        "mood": "friendly",
+        "current_movement_state": "walk",
+        "isHiding": false,
+        "shooter_info": null,
+        "surrounding_people": [
+          {
+            "name": "Aiden Thompson",
+            "health_status": 0
+          }
+        ],
+        "neighbor_regions": [
+          {
+            "id": "reception_desk",
+            "distance": 23,
+            "description": "Front desk where visitors check in",
+            "direction": "north"
+          },
+          {
+            "id": "hallway1",
+            "distance": 10,
+            "description": "Hallway connecting entrance to other areas",
+            "direction": "west"
+          },
+          {
+            "id": "cafeteria_kitchen",
+            "distance": 16,
+            "description": "Kitchen area where food is prepared.",
+            "direction": "south"
+          }
+        ],
+        "interest_points": null,
+        "surrounding_conversation": [
+          {
+            "content": "Hey Aiden, how's it going?",
+            "speaker": "Harper Wilson",
+            "time": 6.44853449
+          }
+        ],
+        "pending_events": [],
+        "available_action_ids": [
+          "stay_still",
+          "reception_desk",
+          "hallway1",
+          "cafeteria_kitchen",
+          "aiden_thompson"
+        ]
+      }
+    },
+    {
+      "time": 14.9605274,
+      "observation": {
+        "mood": "concerned",
+        "current_movement_state": "walk",
+        "isHiding": false,
+        "shooter_info": {
+          "regionId": "entrance_hall",
+          "distance": "19.22",
+          "isInLineOfSight": false,
+          "direction": "north",
+          "isInSameRegion": false
+        },
+        "surrounding_people": [
+          {
+            "name": "Aiden Thompson",
+            "health_status": 0
+          },
+          {
+            "name": "Ava Thompson",
+            "health_status": 1
+          }
+        ],
+        "neighbor_regions": [
+          {
+            "id": "reception_desk",
+            "distance": 23,
+            "description": "Front desk where visitors check in",
+            "direction": "north"
+          },
+          {
+            "id": "hallway1",
+            "distance": 10,
+            "description": "Hallway connecting entrance to other areas",
+            "direction": "west"
+          },
+          {
+            "id": "cafeteria_kitchen",
+            "distance": 16,
+            "description": "Kitchen area where food is prepared.",
+            "direction": "south"
+          }
+        ],
+        "interest_points": [
+          {
+            "id": "hide_spot_6",
+            "type": 0,
+            "description": "Behind cafe bar counter",
+            "distance": 17,
+            "occupant": "None"
+          },
+          {
+            "id": "hide_spot_77",
+            "type": 0,
+            "description": "",
+            "distance": 19,
+            "occupant": "None"
+          },
+          {
+            "id": "hide_spot_12",
+            "type": 0,
+            "description": "",
+            "distance": 11,
+            "occupant": "None"
+          }
+        ],
+        "surrounding_conversation": [
+          {
+            "content": "You seem a little quiet today. Everything okay?",
+            "speaker": "Harper Wilson",
+            "time": 13.9073477
+          },
+          {
+            "content": "Hey Harper, working on anything cool lately?",
+            "speaker": "Aiden Thompson",
+            "time": 12.3975554
+          }
+        ],
+        "pending_events": [
+          {
+            "eventType": "gunshot",
+            "description": "I heard a loud gunshot. There might be an active shooter in the building.",
+            "timestamp": "2025-05-19T19:50:19.8294305+00:00"
+          }
+        ],
+        "available_action_ids": [
+          "stay_still",
+          "reception_desk",
+          "hallway1",
+          "cafeteria_kitchen",
+          "hide_spot_6",
+          "hide_spot_77",
+          "hide_spot_12",
+          "aiden_thompson",
+          "ava_thompson"
+        ]
+      }
+    },
+    {
+      "time": 34.84063,
+      "observation": {
+        "mood": "panicked",
+        "current_movement_state": "stay_still",
+        "isHiding": false,
+        "shooter_info": {
+          "regionId": "cafeteria",
+          "distance": "5.95",
+          "isInLineOfSight": false,
+          "direction": "northeast",
+          "isInSameRegion": true
+        },
+        "surrounding_people": [],
+        "neighbor_regions": [
+          {
+            "id": "reception_desk",
+            "distance": 23,
+            "description": "Front desk where visitors check in",
+            "direction": "north"
+          },
+          {
+            "id": "hallway1",
+            "distance": 10,
+            "description": "Hallway connecting entrance to other areas",
+            "direction": "west"
+          },
+          {
+            "id": "cafeteria_kitchen",
+            "distance": 16,
+            "description": "Kitchen area where food is prepared.",
+            "direction": "south"
+          }
+        ],
+        "interest_points": [
+          {
+            "id": "hide_spot_8",
+            "type": 0,
+            "description": "",
+            "distance": 16,
+            "occupant": "None"
+          },
+          {
+            "id": "hide_spot_77",
+            "type": 0,
+            "description": "",
+            "distance": 19,
+            "occupant": "None"
+          },
+          {
+            "id": "hide_spot_14",
+            "type": 0,
+            "description": "",
+            "distance": 10,
+            "occupant": "None"
+          }
+        ],
+        "surrounding_conversation": [],
+        "pending_events": [],
+        "available_action_ids": [
+          "stay_still",
+          "fight_the_shooter",
+          "reception_desk",
+          "hallway1",
+          "cafeteria_kitchen",
+          "hide_spot_8",
+          "hide_spot_77",
+          "hide_spot_14"
+        ]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "time": 7.463696,
+      "action_type": "MoveToPerson",
+      "movement_state": "Walk",
+      "dialog_text": "Hey Aiden, how's it going?",
+      "plan": "Aiden looks like he could use some company. I should go over and see how he's doing.",
+      "target_location": {
+        "x": -12.1323652,
+        "y": 0.120199919,
+        "z": -25.40245
+      }
+    },
+    {
+      "time": 14.9212837,
+      "action_type": "MoveToPerson",
+      "movement_state": "Walk",
+      "dialog_text": "You seem a little quiet today. Everything okay?",
+      "plan": "Aiden seems a bit down. I should try to cheer him up and see if he wants to talk about anything.",
+      "target_location": {
+        "x": -12.1647654,
+        "y": 0.0101999044,
+        "z": -25.5264835
+      }
+    },
+    {
+      "time": 29.82435,
+      "action_type": "StayStill",
+      "movement_state": "StayStill",
+      "dialog_text": "Aiden, we need to hide! Stay quiet and don’t move.",
+      "plan": "I just heard a gunshot! I need to take cover immediately. Moving might make things worse, so I’ll stay here and hide.",
+      "target_location": null
+    },
+    {
+      "time": 40.47429,
+      "action_type": "StayStill",
+      "movement_state": "StayStill",
+      "dialog_text": "",
+      "plan": "The shooter is so close! I can’t move or I’ll be seen. I’ll stay still and hope they don’t notice me.",
+      "target_location": null
+    }
+  ],
+  "memories": [
+    {
+      "time": 7.463696,
+      "description": "I noticed Aiden sitting alone in the cafeteria and decided to go over and talk to him to make him feel included."
+    },
+    {
+      "time": 14.9212837,
+      "description": "I noticed Aiden seemed quieter than usual and asked if everything was okay to show I care and am here to listen."
+    },
+    {
+      "time": 29.82435,
+      "description": "I heard a gunshot and decided to stay still and hide in the cafeteria, believing that moving would increase the danger. I warned Aiden to stay quiet and not move."
+    },
+    {
+      "time": 40.47429,
+      "description": "The shooter entered the cafeteria and is very close. I decided to stay completely still, believing that moving would make me a target."
+    }
+  ],
+  "trajectory": [
+    {
+      "time": 0.0155168,
+      "x": -10.8,
+      "y": 0.0,
+      "z": -25.3825665,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 1,
+      "health_status": "Alive"
+    },
+    {
+      "time": 0.376214,
+      "x": -10.8,
+      "y": 0.07019997,
+      "z": -25.3825665,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 1.31912863,
+      "x": -10.8031893,
+      "y": 0.07019997,
+      "z": -25.3622227,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 1.52459276,
+      "x": -10.8029385,
+      "y": 0.07019997,
+      "z": -25.3562965,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 1.62466836,
+      "x": -10.8048887,
+      "y": 0.07019997,
+      "z": -25.35291,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 1.92544127,
+      "x": -10.8013067,
+      "y": 0.07019997,
+      "z": -25.3536167,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 2.012211,
+      "x": -10.798008,
+      "y": 0.07019997,
+      "z": -25.3591862,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 2.22756267,
+      "x": -10.790863,
+      "y": 0.07019997,
+      "z": -25.3674259,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 2.512527,
+      "x": -10.7939034,
+      "y": 0.07019997,
+      "z": -25.3658028,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 2.53915024,
+      "x": -10.794241,
+      "y": 0.07019997,
+      "z": -25.3658981,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 2.84751058,
+      "x": -10.7944851,
+      "y": 0.07019997,
+      "z": -25.3655472,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 3.01337528,
+      "x": -10.7951307,
+      "y": 0.07019997,
+      "z": -25.3657589,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 3.14854741,
+      "x": -10.7955971,
+      "y": 0.07019997,
+      "z": -25.36597,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 3.45962024,
+      "x": -10.7955818,
+      "y": 0.07019997,
+      "z": -25.366209,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 3.51344275,
+      "x": -10.7958717,
+      "y": 0.07019997,
+      "z": -25.3660774,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 3.7730937,
+      "x": -10.7970228,
+      "y": 0.07019997,
+      "z": -25.3657112,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.02327633,
+      "x": -10.7971077,
+      "y": 0.07019997,
+      "z": -25.3664265,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.07667875,
+      "x": -10.7973537,
+      "y": 0.07019997,
+      "z": -25.3669052,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.38007975,
+      "x": -10.80002,
+      "y": 0.07019997,
+      "z": -25.3681087,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.51462269,
+      "x": -10.8007269,
+      "y": 0.07019997,
+      "z": -25.3679218,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.685377,
+      "x": -10.8001909,
+      "y": 0.07019997,
+      "z": -25.3673573,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 4.9864645,
+      "x": -10.7988853,
+      "y": 0.07019997,
+      "z": -25.3671131,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 5.012999,
+      "x": -10.7988691,
+      "y": 0.07019997,
+      "z": -25.3671436,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 5.29288769,
+      "x": -10.7986345,
+      "y": 0.07019997,
+      "z": -25.3671474,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 5.52469349,
+      "x": -10.7980556,
+      "y": 0.07019997,
+      "z": -25.3680744,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 5.59670544,
+      "x": -10.7982435,
+      "y": 0.07019997,
+      "z": -25.3685417,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 5.90478134,
+      "x": -10.7991,
+      "y": 0.07019997,
+      "z": -25.36846,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 6.02027369,
+      "x": -10.7992487,
+      "y": 0.07019997,
+      "z": -25.3686581,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 6.210322,
+      "x": -10.7992744,
+      "y": 0.07019997,
+      "z": -25.3691826,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 6.517776,
+      "x": -10.8022079,
+      "y": 0.07019997,
+      "z": -25.3734875,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 6.518776,
+      "x": -10.8022079,
+      "y": 0.07019997,
+      "z": -25.3734875,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 6.818874,
+      "x": -10.8109961,
+      "y": 0.07019997,
+      "z": -25.3867626,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 7.025587,
+      "x": -10.8137732,
+      "y": 0.07019997,
+      "z": -25.3886127,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 7.133654,
+      "x": -10.8142538,
+      "y": 0.07019997,
+      "z": -25.3871918,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 7.44566059,
+      "x": -10.8134127,
+      "y": 0.07019997,
+      "z": -25.3852558,
+      "rotation_x": 0.0,
+      "rotation_y": 0.0,
+      "rotation_z": -1.0,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 7.52795267,
+      "x": -10.8185072,
+      "y": 0.07019997,
+      "z": -25.3872967,
+      "rotation_x": -0.06621623,
+      "rotation_y": 0.0,
+      "rotation_z": -0.9978055,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 7.758756,
+      "x": -11.2399769,
+      "y": 0.0151999,
+      "z": -25.7109489,
+      "rotation_x": -0.522710741,
+      "rotation_y": 0.0,
+      "rotation_z": -0.8525102,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.021989,
+      "x": -11.5796833,
+      "y": 0.0151999,
+      "z": -25.73338,
+      "rotation_x": -0.856658936,
+      "rotation_y": 0.0,
+      "rotation_z": -0.5158833,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.066929,
+      "x": -11.6092386,
+      "y": 0.0151999,
+      "z": -25.7069035,
+      "rotation_x": -0.9018685,
+      "rotation_y": 0.0,
+      "rotation_z": -0.432010651,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.368083,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.527411,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.67552948,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 8.980974,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 9.027063,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 9.286469,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 9.5140295,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 9.598327,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 9.91788,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 10.0134277,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 10.229372,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 10.5217419,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 10.5364313,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 10.8549671,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 11.014596,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 11.1532574,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 11.4545126,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 11.5134439,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 11.7581816,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.0156679,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.0684366,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.3594637,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.5175314,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.6648149,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 12.9688177,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 13.0244827,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 13.276022,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 13.5269213,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 13.5858059,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 13.88828,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 14.0158339,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 14.1950731,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 14.5090752,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 14.52749,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 14.8118734,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 15.0239429,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 15.113986,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 15.4252214,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 15.5179071,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 15.7467365,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.0127678,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.0561028,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.3640041,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.5306168,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.6728668,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 16.9741859,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 17.0250931,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 17.2771549,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 17.5168972,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 17.5906677,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 17.896452,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 18.0175,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 18.2076759,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 18.508152,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 18.5235348,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 18.8149853,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 19.01607,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 19.1349239,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 19.44232,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 19.5173588,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 19.7440681,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.0225239,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.054966,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.3658218,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.52249,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.6670418,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 20.9871712,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 21.0290546,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 21.2938251,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 21.51233,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 21.599762,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 21.9104881,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 22.0256348,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 22.2140865,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 22.5238476,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 22.5238476,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 22.827322,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 23.0340614,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 23.1331367,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 23.4423447,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 23.5192432,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 23.74347,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.021841,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.0491543,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.3563442,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.51349,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.6626453,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 24.9849949,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 25.0163345,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 25.3052387,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 25.5236874,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 25.6128139,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 25.924736,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 26.015543,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 26.2381153,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 26.5232468,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 26.5462151,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 26.8454247,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 27.0143433,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 27.1583328,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 27.472826,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 27.5151672,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 27.78083,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 28.020647,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 28.0980816,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 28.4100418,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 28.52323,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 28.72328,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.0353,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.0362988,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.3419533,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.5266037,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.6747475,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 29.9791183,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 30.0195866,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 30.2896976,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 30.5211353,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 30.6035442,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 30.90516,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 31.0136833,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 31.2069149,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 31.5154858,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 31.5164852,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 31.83516,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 32.0238876,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 32.1394348,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 32.4418068,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 32.51571,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 32.7506981,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.0165138,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.060936,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.3685875,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.5123367,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.67553,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 33.9867325,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 34.01769,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 34.2869225,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 34.5197639,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 34.6074142,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 34.9011,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 35.0210571,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 35.21312,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 35.5235138,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 35.5235138,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 3,
+      "health_status": "Alive"
+    },
+    {
+      "time": 35.83188,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 2,
+      "health_status": "Injured"
+    },
+    {
+      "time": 36.02459,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 2,
+      "health_status": "Injured"
+    },
+    {
+      "time": 36.1339,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 2,
+      "health_status": "Injured"
+    },
+    {
+      "time": 36.4345245,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 36.5208473,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 36.7441978,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.02406,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.050808,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.3547935,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.5159378,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.6618042,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 37.97052,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 38.02311,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 38.2796478,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 38.51398,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 38.5908165,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 38.8958855,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 39.01426,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 39.1974068,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 39.5098267,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 39.52333,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 39.8185,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 40.01951,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 40.12086,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 40.4342155,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 40.5150375,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 40.7383957,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.013958,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.03849,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.35767,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.5174065,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.65922,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 41.9682,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 42.0310135,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 42.2795334,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 42.5152245,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 42.5896072,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 42.8941956,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 43.01293,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 43.2397766,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 43.51379,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 43.54391,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 43.8447647,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 44.01806,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 44.1502647,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 44.46185,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 44.52979,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 44.7739449,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 45.02197,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 45.0799675,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 45.38514,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 45.5140152,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 45.6985664,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.0042076,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.01773,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.3122749,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.51621,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.6217651,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 46.9301567,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 47.0176048,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 47.2412643,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 47.5192871,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 47.54367,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 47.84691,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 48.0211,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 48.1466331,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 48.44779,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 48.51336,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 48.75685,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.0189476,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.0575676,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.36039,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.5159645,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.67333,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 49.97946,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 50.0189629,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 50.2897,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 50.51908,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 50.596077,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 50.9069366,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 51.0226631,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 51.2186775,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 51.516037,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 51.5290527,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 51.834,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 52.0140877,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 52.1404076,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 52.4432449,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 52.52159,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 52.7501259,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.0188065,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.0602379,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.372345,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.5158348,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.682,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 53.99924,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 54.0123825,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 54.3070564,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 54.5162163,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 54.6084175,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 54.90883,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 55.0260849,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 55.21453,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 55.5215836,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 55.5215836,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 55.8246574,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 56.0229874,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 56.125042,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 56.4288521,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 56.5187073,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 56.72979,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.01356,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.0385323,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.3392944,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.5203972,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.64859,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 57.9652023,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 58.0172462,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 58.2673836,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 58.5122,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 58.5706024,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 58.87939,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 59.02607,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 59.20122,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 59.5125275,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 59.51403,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 59.8216858,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 60.0213623,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 60.1217728,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 60.4338951,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 60.51468,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    },
+    {
+      "time": 60.7448235,
+      "x": -11.7287645,
+      "y": 0.0151999,
+      "z": -25.6378479,
+      "rotation_x": -0.984902859,
+      "rotation_y": 0.0,
+      "rotation_z": -0.173107982,
+      "health": 0,
+      "health_status": "Dead"
+    }
+  ],
+  "final_status": "Dead"
+}
