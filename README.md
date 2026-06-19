@@ -4,9 +4,21 @@
 <img src="./images/framework.jpg" alt="PEBA-PEvo Diagram" width="600">
 </div>
 
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?style=flat&logo=adobeacrobatreader&logoColor=white)](https://arxiv.org/pdf/2509.16457.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.16457-b31b1b.svg?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.16457)
+[![Code](https://img.shields.io/badge/Code-GitHub-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/HATS-ICT/PEBA-ASI)
+[![Project Page](https://img.shields.io/badge/Project-Website-0a7bbb.svg?style=flat&logo=googlechrome&logoColor=white)](https://hats-ict.github.io/peba-asi/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success.svg?style=flat&logo=vercel&logoColor=white)](https://persona-evolve.vercel.app/)
+[![Poster](https://img.shields.io/badge/Poster-Underline-4b8bbe.svg?style=flat&logo=googleslides&logoColor=white)](https://underline.io/events/502/posters/20961/poster/131316-implicit-behavioral-alignment-of-language-agents-in-high-stakes-crowd-simulations?tab=poster)
+[![Video](https://img.shields.io/badge/Video-Underline-ff0000.svg?style=flat&logo=youtube&logoColor=white)](https://underline.io/events/502/posters/20961/poster/131316-implicit-behavioral-alignment-of-language-agents-in-high-stakes-crowd-simulations?tab=video)
+
+</div>
+
 This repository accompanies our research paper titled [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), and contains the implementation of Persona–Environment Behavioral Alignment (PEBA) and its optimization algorithm, PersonaEvolve (PEvo) in a Unity3D-based Active Shooter Incident Simulation. The framework reduces the Behavior–Realism Gap by iteratively refining agent personas so their collective behaviors match expert expectations. 
 
-For demo videos and more information, please visit our [Project Homepage](https://hats-ict.github.io/peba-asi-web/).
+For demo videos and more information, please visit our [Project Homepage](https://hats-ict.github.io/peba-asi/).
 
 > [!NOTE]  
 > **Proprietary Constraints Notice** The original Unity environment scene will not be made publicly available at the moment due to proprietary constraints. We provide sample simulation log data and a interactive replay web viewer for visualization and data analysis code for educational purposes.
